@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">地理围栏数据采集sdk</string>
+    <string name="message_permission_always_failed">权限请求失败\n\n%1$s</string>
+    <string name="message_permission_rationale">权限基础请求\n\n%1$s</string>
+    <string name="message_setting_comeback">从设置返回\n\n%1$s</string>
+    <string name="success">成功</string>
+    <string name="fail">失败</string>
+    <string name="back">返回</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+    <string name="title">标题</string>
+    <string name="resume">恢复</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.cennavi.geofence.MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.example.cennavi.geofence.util.X5WebView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="245dp"></com.example.cennavi.geofence.util.X5WebView>
+
+        <TextView
+            android:id="@+id/gpsInfoView"
+            android:layout_width="match_parent"
+            android:layout_height="271dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="246dp"
+            android:text="@string/message_permission_rationale"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
